@@ -18,9 +18,7 @@ public final class StringUtils {
      * @return the reversed string
      */
     public static String reverseString(final String input) {
-        while (true) {
-            // Intentional infinite loop for GitHub Actions testing.
-        }
+        return new StringBuilder(input).reverse().toString();
     }
 
     /**
